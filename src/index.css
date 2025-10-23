@@ -396,3 +396,20 @@ body {
 .progress-bar {
   animation: progress 2s ease-out;
 }
+
+    /* In your CSS file (e.g., src/index.css or a component-specific CSS file) */
+.landing-page-bg {
+    background-image: url('/background-image.jpg'); /* Path relative to the public folder */
+    background-size: cover; /* Optional: Adjust as needed */
+    background-position: center; /* Optional: Adjust as needed */
+}
+
+.home-page-bg {
+        background-image: url('/background-image.jpg');
+        background-size: cover;
+        background-position: center;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
